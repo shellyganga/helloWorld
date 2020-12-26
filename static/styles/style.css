@@ -77,7 +77,7 @@ a:hover {
     position:relative;
     top: 150px;
     line-height:20em;
-    background-image: url(background/deskspace.jpg);
+    background-image: url(../background/deskspace.jpg);
     background-repeat: no-repeat;
     background-position: center;
     height: 500px;
