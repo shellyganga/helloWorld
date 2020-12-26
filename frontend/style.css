@@ -1,0 +1,257 @@
+@font-face {
+    src: url(fonts/Animosa-Regular.otf);
+    font-family: animosareg;
+}
+
+@font-face {
+    src: url(fonts/Animosa-Bold.otf);
+    font-family: animosabld;
+}
+
+@font-face {
+    src: url(fonts/Animosa-Light.otf);
+    font-family: animosalgt;
+}
+
+@font-face {
+    src: url(fonts/UnicaOne-Regular.ttf);
+    font-family: unica;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+    color: #404E5C;
+    font-size: 25px;
+    z-index: 5;
+}
+
+a:hover {
+    color: #00A79D;
+}
+
+.navbar {
+    position:absolute;
+    font-family: animosalgt;
+    background-color: #F7F4EA;
+    padding-top: 20px;
+    height: 50px;
+    width: 100%;
+    margin-right: 100px;
+    text-align: right;
+    z-index: 1;
+    word-spacing: 1.6em;
+    top: 10px;
+}
+
+.logo {
+    position: absolute;
+    margin-left:5px;
+    top: 20px;
+    z-index: 10;
+}
+
+.teamname {
+    position: absolute;
+    font-family: unica;
+    color: 404E5C;
+    font-size: 50px;
+    margin-left: 60px;
+    top: -35px;
+    z-index: 10;
+}
+
+#header {
+    position: relative;
+    font-size: 50px;
+    font-family: animosabld;
+    color: #211A1E;
+    margin-left: 220px;
+    margin-right: -150px;
+}
+
+.box1 {
+    position:relative;
+    top: 150px;
+    line-height:20em;
+    background-image: url(background/deskspace.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+.inputbox {
+    position:relative;
+    top: -150px;
+    width: 70%;
+    margin-left: 220px;
+    font-family: animosalgt;
+    font-size: 30px;
+    resize: none;
+    overflow: hidden;
+    outline: none;
+}
+
+.btn{
+    position:absolute;
+    font-family: animosabld;
+    font-size: 20px;
+    margin-left: 220px;
+    margin-top: -150px;
+    z-index: 100;
+    height: 50px;
+    width: 150px;
+}
+
+.paragraph {
+    font-size: 25px;
+    font-family: animosareg;
+}
+
+
+.box2 {
+    position:relative;
+    width: 70%;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.head2 {
+    font-size: 50px;
+    font-family: animosabld;
+}
+
+.box3 {
+    position:relative;
+    text-align: center;
+    background-color: #F7F4EA;
+}
+
+.initclaims {
+    font-family: animosalgt;
+    float: center;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.block {
+    font-family: animosalgt;
+    color: white;
+    float: center;
+    width: 100%;
+    text-align: center;
+    background-color: #404E5C;
+    padding: 10px;
+}
+
+.meet {
+    position:absolute;
+    font-family: animosareg;
+    font-size: 25px;
+    z-index: 10;
+    margin-left: 220px;
+    top: 420px;
+    width: 50%;
+}
+
+.profile {
+    position:relative;
+    top: 250px;
+    margin-left: 200px;
+}
+
+.shname {
+    font-family: animosabld;
+    position:absolute;
+    top: 760px;
+    margin-left: 450px;
+}
+
+.shdescription {
+    font-family: animosalgt;
+    position:absolute;
+    top: 800px;
+    margin-left: 450px;
+}
+
+.suname {
+    font-family: animosabld;
+    position:absolute;
+    top: 970px;
+    margin-left: 450px;
+}
+
+.sudescription {
+    font-family: animosalgt;
+    position:absolute;
+    top: 1010px;
+    margin-left: 450px;
+}
+
+.juname {
+    font-family: animosabld;
+    position:absolute;
+    top: 760px;
+    margin-left: 450px;
+}
+
+.judescription {
+    font-family: animosalgt;
+    position: absolute;
+    top: 800px;
+    margin-left: 450px;
+}
+
+.adname {
+    font-family: animosabld;
+    position:absolute;
+    top: 970px;
+    margin-left: 450px;
+}
+
+.addescription {
+    font-family: animosalgt;
+    position: absolute;
+    top: 1010px;
+    margin-left: 450px;
+}
+
+.block2 {
+    float: left;
+    width: 50%;
+}
+
+.box4 {
+    position:absolute;
+    font-family: animosalgt;
+    background-color: #F7F4EA;
+    padding-top: 20px;
+    height: 50px;
+    width: 100%;
+    margin-right: 100px;
+    text-align: right;
+    z-index: 1;
+    word-spacing: 1.6em;
+    top: 1000px;
+}
+
+.box5 {
+    position:absolute;
+    font-family: animosalgt;
+    background-color: #F7F4EA;
+    padding-top: 20px;
+    height: 50px;
+    width: 100%;
+    margin-right: 100px;
+    text-align: right;
+    z-index: 1;
+    word-spacing: 1.6em;
+    top: 1300px;
+}
+

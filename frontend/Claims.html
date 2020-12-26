@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Claim Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <img class = "logo" src="images/Logo.png" alt="Team logo" width= 50px/>
+            <p class="teamname">JASS</p>
+
+        <nav class="navbar">
+            <a href="Claims.html" class="link" >Claims</a>
+            <a href="Article.html" class="link" target="blank">Article</a>
+            <a href="About.html" class="link" target="blank">About</a>
+        </nav>
+
+        <div class="box2">
+            <p class="paragraph">
+                My spidey senses are tingling! Did I forget to fact check?    
+            </p>
+        </div>
+
+        <div class="box3">
+            <h2 class="head2">Claims</h2>
+        </div>
+         <span id="result"></span>
+        <div class="block">
+            <script type="text/javascript">
+                var url = sessionStorage.getItem('url');
+                const spawn = require("child_process").spawn;
+                const pythonProcess = spawn('python',["hellWorld/ok.py", url]);
+                document.getElementById("result").innerHTML = pythonProcces
+            </script>
+
+            <h3>"Claim One"</h3>
+            <p>url</p>
+            <p>summary</p>
+        </div>
+
+        <br/>
+
+        <div class="block">
+            <h3>"Claim Two"</h3>
+            <p>url</p>
+            <p>summary</p>
+        </div>
+
+        <br/>
+
+        <div class="block">
+            <h3>"Claim Three"</h3>
+            <p>url</p>
+            <p>summary</p>
+        </div>
+
+        <div class="box4">
+            
+        </div>
+    </body>
+</html>
